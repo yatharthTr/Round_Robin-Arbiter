@@ -37,7 +37,8 @@ The arbiter is designed to manage multiple channels using a round-robin scheduli
 - **RRB_final.v:** Contains the top-level module that integrates all components.
 - **tb_RRB_final.v:** Contains the testbench code for simulating the top module.
 
-![image](https://github.com/user-attachments/assets/4188c4c1-69d3-4052-89ab-f81c02698bf3)
+![image](https://github.com/user-attachments/assets/44e08a5d-46ca-4834-ac4c-6fe1ec580252)
+
 ![image](https://github.com/user-attachments/assets/50d98e5c-6d27-4ebd-893c-f51d424cfed9)
 
 

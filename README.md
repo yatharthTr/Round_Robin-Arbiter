@@ -28,34 +28,6 @@ The arbiter is designed to manage multiple channels using a round-robin scheduli
 - **Function:** Simulates various scenarios to verify the arbiter's functionality.
 - **Description:** Tests the top module under different conditions, including single requests, multiple simultaneous requests, and edge cases such as no requests.
 
-## Getting Started
-
-### Prerequisites
-
-- Verilog simulator (e.g., ModelSim, XSIM)
-- A compatible development environment (e.g., Vivado, Quartus)
-
-### Running the Simulation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/round-robin-arbiter.git
-    cd round-robin-arbiter
-    ```
-
-2. Compile the Verilog files:
-    ```bash
-    # Example for ModelSim
-    vlog NGPRC.v grant_req_calc.v RRB_MUX.v RRB_final.v tb_RRB_final.v
-    ```
-
-3. Run the simulation:
-    ```bash
-    # Example for ModelSim
-    vsim tb_RRB_final
-    ```
-
-4. Observe the simulation results and verify that the arbiter behaves as expected.
 
 ## Module Descriptions
 
@@ -65,18 +37,7 @@ The arbiter is designed to manage multiple channels using a round-robin scheduli
 - **RRB_final.v:** Contains the top-level module that integrates all components.
 - **tb_RRB_final.v:** Contains the testbench code for simulating the top module.
 
-## Contributing
+![image](https://github.com/user-attachments/assets/4188c4c1-69d3-4052-89ab-f81c02698bf3)
+![image](https://github.com/user-attachments/assets/50d98e5c-6d27-4ebd-893c-f51d424cfed9)
 
-If you would like to contribute to this project, please fork the repository and create a pull request with your proposed changes. Ensure that any new code or modifications are thoroughly tested.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For questions or comments, please reach out to [your email](mailto:your.email@example.com).
-
----
-
-**Note:** Replace `yourusername` with your actual GitHub username and provide your actual email address in the contact section.
